@@ -1,9 +1,9 @@
 # String Matching Algorithm
 
 ## <a href="https://github.com/sanya2508/String_Algorithm-and-Interview_Problem/blob/master/naive%20algorithm.cpp">Naive Algorithm</a>
- *Naive pattern searching is the simplest method among other pattern searching algorithms. It checks for all character of the main string to the pattern. This algorithm is helpful for smaller texts. It does not need any pre-processing phases. We can find substring by checking once for the string. It also does not occupy extra space to perform the operation.
+ * Naive pattern searching is the simplest method among other pattern searching algorithms. It checks for all character of the main string to the pattern. This algorithm is helpful for smaller texts. It does not need any pre-processing phases. We can find substring by checking once for the string. It also does not occupy extra space to perform the operation.
 
- *The time complexity of Naive Pattern Search method is O(m*n) in the worst case and O(n) in the best  case. The m is the size of pattern and n is the size of the main string.
+ * The time complexity of Naive Pattern Search method is O(m*n) in the worst case and O(n) in the best  case. The m is the size of pattern and n is the size of the main string.
 
 <hr/>
 
