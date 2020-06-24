@@ -11,10 +11,16 @@
  * Rabin-Karp is another pattern searching algorithm to find the pattern in a more efficient way. It also checks the pattern by moving window one by one, but without checking all characters for all cases, it finds the hash value. When the hash value is matched, then only it tries to check each character. This procedure makes the algorithm more efficient.
 
  * The time complexity is O(m+n), but for the worst case, it is O(mn).
+ * Reference:
+    * Concept: https://www.youtube.com/watch?v=IqrPGlvI9LY
+    * Implementation: https://www.youtube.com/watch?time_continue=10&v=ak-RkHvknO0&feature=emb_logo
 
 <hr/>
 
 ## <a href="https://github.com/sanya2508/String_Algorithm-and-Interview_Problem/blob/master/knuth%20morris%20pratt%20algorithm.cpp">Knuth Morris Pratt</a>
  * Knuth Morris Pratt (KMP) is an algorithm, which checks the characters from left to right. When a pattern has a sub-pattern appears more than one in the sub-pattern, it uses that property to improve the time complexity, also for in the worst case.
+ * No recomputation.
+ * Reset table. (at every index we will store what is length of longest suffix present till now which is also present as a prefix in the pattern.
+ 
 
  * The time complexity of KMP is O(n).
